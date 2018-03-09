@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+ 
+ <body style="background-color: #14B3FD;">
+<table style="width:100%; margin-top: 2%; ">
+  <tr >
+  
+    <th  style="border: 2px solid black;"><a href="index.htm" target="_self" style = " text-decoration: none; color : black; font-size: 20px"  >HOME</a></th>
+   
+    <th  style="border: 2px solid black;"><a href="localdishes.htm" target="_self" style = " text-decoration: none; color : black; font-size: 20px" >Local Dishes</a></th> 
+   
+    <th  style="border: 2px solid black;"><a href="historicalpl.htm" target="_self" style = " text-decoration: none; color : black; font-size: 20px" >Historical Places</a></th>
+   
+    <th  style="border: 2px solid black;"><a href="Usefullinks.htm" target="_self" style = " text-decoration: none; color : black; font-size: 20px" >Useful Links</a></th>
+   
+    <th  style="border: 2px solid black;"><a href="contact.htm" target="_self" style = " text-decoration: none; color : black; font-size: 20px" >Contact Me</a></th>
+   
+    <th  style="border: 2px solid black;"><a href="aboutme.htm" target="_self" style = " text-decoration: none; color : black; font-size: 20px">About Me</a></th>
+   
+    <th  style="border: 2px solid black;"><a href="registration.htm" target="_self" style = " text-decoration: none; color : blue; font-size: 30px;">Registration</a></th>
+  
+  </tr>
+</table>
+
+
+      <div  align="center"; style="text-align:center; color: #443587; margin-left: 20%; margin-right: 20%;  font-family: calibri"; class="form">
+            <form id="contactform">
+                <p class="contact"><label for="name">Name</label></p>
+                <input id="name" name="name" placeholder="First name"  tabindex="1" type="text">
+
+                <p class="contact"><label for="name">Surname</label></p>
+                <input id="name" name="name" placeholder="Last name"  tabindex="2" type="text">
+ 
+                <p class="contact"><label for="email">Email</label></p>
+                <input id="email" name="email" placeholder="example@domain.com"  type="email">
+
+                <p class="contact"><label for="password">Create a password</label></p>
+                <input type="password" id="password" name="password"  type="text">
+                <p class="contact"><label for="repassword">Confirm your password</label></p>
+                <input type="password" id="password" name="password"  type="text">
+                <br><br>
+ 
+               <fieldset>
+                 <label>Birthday</label>
+                  <label class="month">
+                  <select class="select-style" name="BirthMonth">
+                  <option value="">Month</option>
+                  <option  value="01">January</option>
+                  <option value="02">February</option>
+                  <option value="03" >March</option>
+                  <option value="04">April</option>
+                  <option value="05">May</option>
+                  <option value="06">June</option>
+                  <option value="07">July</option>
+                  <option value="08">August</option>
+                  <option value="09">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12" >December</option>
+                  </label>
+                 </select>   
+                <label>Day<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Day" ></label>
+                <label>Year <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" ></label>
+              </fieldset>
+              <br>
+ 
+            <select class="select-style gender" name="gender">
+            <option value="select">Gender</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="others">Other</option>
+            </select><br><br><br>
+
+            
+ <input type="button" onclick="location.href='Submit.htm'" name="Submit" value="Submit"> 
+<br>
+            
+ <input type="button" onclick="location.href='registration.htm'" name="reset" value="reset"> 
+<br>
+   
+   </form>
+</div>
+
+
+</body>
+</html>
